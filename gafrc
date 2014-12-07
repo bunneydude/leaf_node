@@ -1,0 +1,7 @@
+(define current-working-directory (getenv "PWD"))
+(define personal-component-library (getenv "GEDA_SYM"))
+
+(component-library current-working-directory)
+(component-library personal-component-library)
+
+(source-library current-working-directory)
